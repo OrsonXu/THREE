@@ -1,0 +1,27 @@
+﻿Build started 11/23/2016 21:27:44.
+     1>Project "C:\Users\orson\Desktop\tsinghua myself\ProjectRepo\THREE\THREE\THREE.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (大作业——三.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\Visual Studio 2013\VC\bin\CL.exe /c /I./include_cpp /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt number.cpp scene.cpp stdafx.cpp user.cpp
+         user.cpp
+     1>c:\users\orson\desktop\tsinghua myself\projectrepo\three\three\user.cpp(20): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio 2013\vc\include\time.inl(112) : see declaration of 'localtime'
+         stdafx.cpp
+         scene.cpp
+         number.cpp
+         Generating Code...
+     1>c:\users\orson\desktop\tsinghua myself\projectrepo\three\three\number.cpp(113): warning C4715: 'number::randomnum' : not all control paths return a value
+         D:\Visual Studio 2013\VC\bin\CL.exe /c /I./include_cpp /I./include_cpp /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt THREE.cpp
+         THREE.cpp
+       Link:
+         D:\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\orson\Desktop\tsinghua myself\ProjectRepo\THREE\Debug\THREE.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\orson\Desktop\Junior.autumn ONLY COURSES\Software Engineering\Assignment\week2\大作业——三 - 修改\大作业——三\lib" /LIBPATH:"E:\TSINGHUA YEARS\Sophomore.autumn ONLY COURSES\C++ programming\c++大作业\大作业——三 - 修改\大作业——三\lib" /LIBPATH:"C:\Users\栩海\Desktop\Sophomore.autumn ONLY COURSES\C++ programming\c++大作业\大作业——三\大作业——三\lib" /LIBPATH:./lib libxl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\orson\Desktop\tsinghua myself\ProjectRepo\THREE\Debug\THREE.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\orson\Desktop\tsinghua myself\ProjectRepo\THREE\Debug\THREE.lib" /MACHINE:X86 Debug\number.obj
+         Debug\scene.obj
+         Debug\stdafx.obj
+         Debug\user.obj
+         Debug\THREE.obj
+         THREE.vcxproj -> C:\Users\orson\Desktop\tsinghua myself\ProjectRepo\THREE\Debug\THREE.exe
+     1>Done Building Project "C:\Users\orson\Desktop\tsinghua myself\ProjectRepo\THREE\THREE\THREE.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.82
