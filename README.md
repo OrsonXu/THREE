@@ -5,4 +5,4 @@ This game can only be run under Windows.
 Run `./Debug/THREE.exe` and HAVE FUN!
 
 ---
-Finish in June/2015
+Finished in Dec/2015
